@@ -1,0 +1,365 @@
+:root{
+    --main--color:rgba(243, 38, 38, 0.904);
+}
+body{
+    font-family: 'Bitter', serif;
+}
+.container{
+    width: 1170px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: auto;
+}
+/*start landing page*/
+.landing-page{
+    min-height: 100vh;
+    background-image: url(../images/01.png) ;
+    background-size: cover;
+    position: relative;
+}
+.landing-page .overlay{
+background-color: rgba(199, 107, 107, 0.397);
+position: absolute;
+width: 100%;
+height: 100%;
+left: 0;
+top: 0;
+z-index:1;
+}
+.header-area{
+    position: relative;
+    z-index: 2;
+    color: #fff;
+    display: flex;
+    padding: 10px;
+}
+.header-area .logo{
+    width: 130px;
+    height: 110px;
+    padding: 15px;
+    font-weight: bold;
+    background-image: url(../images/fff.png) ;
+}
+.header-area .links{
+    list-style: none;
+    padding-left: 0%;
+    padding-right: 20px;
+    width: 100%;
+    text-align: right;
+    font-size: 20px;
+}
+.header-area .links li{
+    display: inline-block;
+    margin-left: 10px;
+}
+.header-area .links li a{
+    color:#fff;
+    font-weight: bold;
+    text-decoration: none;
+    transition: .3s;
+}
+.header-area .links li a:hover,
+.header-area .links li a.active{
+    color: var(--main--color)
+}
+.intro-text{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 2;
+    color: #fff;
+    text-align: center
+}
+.intro-text h1{
+    font-size: 40px;
+    margin: 0 0 12px;
+}
+.intro-text h1 span{
+    color: var(--main--color)
+}
+.intro-text p{
+    line-height: 1.6;
+    font-size: 25px;
+    margin: 0%;
+    color: rgb(19, 18, 18);
+    font-weight: bold;
+}
+/*end landing page*/
+
+/*start about us*/
+.about-us{
+padding-top: 50px;
+padding-bottom: 50px;
+display: flex;
+}
+.about-us .info-box{
+flex: 1;
+padding: 30px;
+}
+.about-us .info-box h2{
+font-weight: bold;
+font-size: 30px;
+color: var(--main--color);
+margin: 0 0 10px;
+}
+.about-us .info-box p{
+line-height: 1.8;
+color: #767676;
+margin: 0;
+}
+.about-us .image-box{
+flex: 1;
+text-align: center;
+}
+.about-us .image-box img{
+width: 250px;
+height: 250px;
+padding-top: 100px;
+}
+/*end about   us*/
+/*start gallery for dresses*/
+.gallery1 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+} 
+.gallery1 h2 {
+    font-weight: bold;
+    font-size: 30px;
+    color: var(--main--color);
+    margin: 0 0 50px;
+    text-align: center ;
+}
+.gallery1 .images-box{
+    text-align: center;
+}
+.gallery1 .images-box img{
+    width: 200px;
+    padding: 3px;
+    background-color: #f6f6f6;
+    border: 1px solid #ccc;
+    margin: 5px;
+    cursor: pointer;
+}
+.gallery1 .images-box button{
+    width: 50px;
+    padding: 3px;
+    background-color: #f6f6f6;
+    border: 1px solid #ccc;
+    margin: 5px;
+    cursor: pointer;
+}
+
+/*end gallery for dresses*/
+
+/*start gallery for Blouses & Shirts */
+.gallery2 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+} 
+.gallery2 h2 {
+    font-weight: bold;
+    font-size: 30px;
+    color: var(--main--color);
+    margin: 0 0 50px;
+    text-align: center;
+}
+.gallery2 .images-box{
+    text-align: center;
+}
+.gallery2 .images-box img{
+    width: 200px;
+    padding: 3px;
+    background-color: #f6f6f6;
+    border: 1px solid #ccc;
+    margin: 5px;
+    cursor: pointer;
+}
+/*end gallery for Blouses & Shirts*/
+
+/*start gallery for skirts */
+.gallery3 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+} 
+.gallery3 h2 {
+    font-weight: bold;
+    font-size: 30px;
+    color: var(--main--color);
+    margin: 0 0 50px;
+    text-align: center;
+}
+.gallery3 .images-box{
+    text-align: center;
+}
+.gallery3 .images-box img{
+    width: 200px;
+    padding: 3px;
+    background-color: #f6f6f6;
+    border: 1px solid #ccc;
+    margin: 5px;
+    cursor: pointer;
+}
+/*end gallery for skirts*/
+
+/*start gallery for bags */
+.gallery4 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+} 
+.gallery4 h2 {
+    font-weight: bold;
+    font-size: 30px;
+    color: var(--main--color);
+    margin: 0 0 50px;
+    text-align: center;
+}
+.gallery4 .images-box{
+    text-align: center;
+}
+.gallery4 .images-box img{
+    width: 200px;
+    padding: 3px;
+    background-color: #f6f6f6;
+    border: 1px solid #ccc;
+    margin: 5px;
+    cursor: pointer;
+}
+/*end gallery for bags*/
+
+/*start gallery for shoeses*/
+.gallery5 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+} 
+.gallery5 h2 {
+    font-weight: bold;
+    font-size: 30px;
+    color: var(--main--color);
+    margin: 0 0 50px;
+    text-align: center;
+}
+.gallery5 .images-box{
+    text-align: center;
+}
+.gallery5 .images-box img{
+    width: 200px;
+    padding: 3px;
+    background-color: #f6f6f6;
+    border: 1px solid #ccc;
+    margin: 5px;
+    cursor: pointer;
+}
+/*end gallery for shoeses*/
+
+/*start gallery for Accessories */
+.gallery6 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+} 
+.gallery6 h2 {
+    font-weight: bold;
+    font-size: 30px;
+    color: var(--main--color);
+    margin: 0 0 50px;
+    text-align: center;
+}
+.gallery6 .images-box{
+    text-align: center;
+}
+.gallery6 .images-box img{
+    width: 200px;
+    padding: 3px;
+    background-color: #f6f6f6;
+    border: 1px solid #ccc;
+    margin: 5px;
+    cursor: pointer;
+}
+/*end gallery for accessories*/
+
+/*  start contact us */
+.contact {
+    min-height: 400px;
+    background-size: cover;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    position: relative;
+}
+.contact .overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, .6);
+}
+.contact .container {
+    position: relative;
+    z-index: 2;
+}
+.contact h2 {
+font-weight: bold;
+font-size: 30px;
+color: var(--main--color);
+margin: 0 0 60px;
+text-align: center;
+padding-top: 60px;
+}
+.contact form{
+    overflow: hidden;
+    max-width: 800px;
+    margin: auto;
+} 
+.contact form .left{
+    float: left;
+    width: 45%;
+}
+.contact form .right{
+    float: right;
+    width: 45%;
+}
+
+.contact form input:not([type="submit"]),
+.contact form textarea {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid rgb(139, 137, 137);
+    background-color: rgba(233, 139, 139, 0.486);
+}
+.contact form input[type="submit"]{
+    padding: 10px;
+    width: 100%;
+    border-color: transparent;
+    background-color: var(--main--color);
+    color: #fff;
+    cursor: pointer;
+}
+.contact form input:not([type="submit"]):focus,
+.contact form textarea:focus{
+    outline: 1px solid var(--main--color);
+}
+.contact form textarea:focus::-webkit-input-placeholder{
+    opacity: 0;
+    transition: .3s;
+} 
+.contact form input{
+    height: 40px;
+}
+.contact form textarea{
+    height: 213px;
+}
+/*  end contact us */
+/* start footer*/
+.footer {
+background-color: #a92323;
+color: #EEE;
+padding: 20px;
+text-align: center;
+font-weight: bold;
+font-size: x-large;
+}
+/*end footer*/
+
+
